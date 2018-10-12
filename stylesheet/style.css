@@ -292,6 +292,40 @@ ol {
   color: #944367;
 }
 
+/*------------------------
+    About Page
+--------------------------*/
+.pic-frame {
+  position: relative;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  display: inline-block;
+}
+
+.pic-frame:after {
+  position: absolute;
+  content: "";
+  width: calc(100% - 25px);
+  height: calc(100% - 25px);
+  bottom: 0;
+  left: 0;
+  border: 2px solid #000;
+  z-index: 1;
+}
+
+.milestone {
+  margin-top: 15px;
+}
+
+.milestone h2 {
+  font-size: 60px;
+}
+
+.milestone h2 span {
+  font-size: 18px;
+  color: #979797;
+}
+
 
 
 /* ===========================
