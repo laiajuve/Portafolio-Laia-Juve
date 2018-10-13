@@ -357,6 +357,111 @@ a{
   transform: scale(1);
 }
 
+/*=== Buttons ===*/
+.site-btn {
+  display: inline-block;
+  font-size: 14px;
+  min-width: 140px;
+  text-align: center;
+  padding: 15px 10px;
+  position: relative;
+  color: #fff;
+  border: none;
+  background-color: #000;
+  margin-right: 15px;
+  z-index: 1;
+}
+
+.site-btn.btn-fade {
+  background-color: #979797;
+}
+
+.site-btn.btn-line {
+  background: none;
+  border: 2px solid #000;
+  color: #000;
+  padding: 13px 10px;
+}
+
+.site-btn.btn-line:hover {
+  color: #000;
+}
+
+.site-btn.btn-line-fade {
+  background: none;
+  border: 2px solid #979797;
+  color: #979797;
+  padding: 13px 10px;
+}
+
+.site-btn.btn-line-fade:hover {
+  color: #979797;
+}
+
+.site-btn:hover {
+  color: #fff;
+}
+
+/*------------------------
+    Contact Page
+--------------------------*/
+.contect-tect {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.contect-tect h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.contect-tect p {
+  font-size: 17px;
+}
+
+.contact-form {
+  display: block;
+  width: 100%;
+}
+
+.contact-form input {
+  padding-left: 25px;
+  height: 60px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  margin-bottom: 30px;
+  font-size: 12px;
+  background-color: #fafafa;
+}
+
+.contact-form textarea {
+  padding-left: 25px;
+  height: 200px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #000;
+  margin-bottom: 30px;
+  font-size: 12px;
+  background-color: #fafafa;
+}
+
+.contact-form ::-webkit-input-placeholder {
+  font-style: italic;
+}
+
+.contact-form :-ms-input-placeholder {
+  font-style: italic;
+}
+
+.contact-form ::-ms-input-placeholder {
+  font-style: italic;
+}
+
+.contact-form ::placeholder {
+  font-style: italic;
+}
+
 /*------------------------
     Footer
 --------------------------*/
