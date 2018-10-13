@@ -52,6 +52,7 @@ ol {
 }
 
 
+
 /*------------------------
   Helper css
 --------------------------*/
@@ -73,8 +74,8 @@ ol {
 }
 
 .titulos {
-  font-size: 55px;
-  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .titulos span {
@@ -108,6 +109,10 @@ ol {
   line-height: 1.65;
 }
 
+a{
+  color: black;
+}
+
 .main-menu ul {
   list-style: none;
 }
@@ -124,6 +129,7 @@ ol {
   margin-left: 15px;
   margin-right: 10px;
   padding: 20px 0 5px;
+  position: relative;
 }
 
 .logo {
@@ -132,6 +138,28 @@ ol {
 }
 
 .main-menu a:hover {
+  color: #944367;
+}
+
+.main-menu a:after  {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #000;
+  opacity: 0;
+  transition: opacity 0.5s;
+  transition: bottom 0.3s;
+}
+
+.main-menu a:hover:after {
+  opacity: 1;
+  bottom: 5px;
+}
+
+.logo a:hover{
   color: #944367;
   font-weight: bold;
 }
@@ -145,6 +173,8 @@ ol {
 .nav-switch {
   display: none;
 }
+
+
 
 /*------------------------
     Intro Section
