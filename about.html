@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
 	<title>Laia Juvé Portfolio</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Laia Juvé Portfolio">
 	<meta name="keywords" content="portfolio, laia , designer, creative, html">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#f8f8f8">
 	<!-- Favicon -->
 	<link href="img/favicon.ico" rel="shortcut icon"/>
 
@@ -13,8 +14,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Krub" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
 
 	<!-- Stylesheets -->
+	<script src="./js/jquery.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ 	<script src="./bootstrap.js"></script>
+ 	<script src="./main1.js"></script>
 	<link rel="stylesheet" href="stylesheet/bootstrap.min.css"/>
 	<link rel="stylesheet" href="stylesheet/font-awesome.min.css"/>
 	<link rel="stylesheet" href="stylesheet/magnific-popup.css"/>
@@ -29,19 +36,24 @@
 </head>
 <body>
 
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
 	<!-- header section start -->
-	<header class="cabecera">
+	<header class="cabecera fixed-top">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-4 col-md-3">
 					<div class="logo">
-						<h2 class="logotipo">Laia Juvé</h2>
+						<h2 class="logotipo"><a href="home.html">Laia Juvé</a></h2>
 					</div>
 				</div>
 				<div class="col-lg-8 col-md-9">
 					<nav class="main-menu">
 						<ul>
-							<li><a href="contact.html">Contact</a></li>
+							<li><a href="contact.html" class="active">Contact</a></li>
 							<li><a href="about.html">About</a></li>
 							<li><a href="home.html">Work</a></li>
 						</ul>
@@ -60,7 +72,7 @@
 		<div class="container text-center">
 			<div class="row">
 				<div class="col-xl-10 offset-xl-1">
-					<h2 class="section-title">I’m a freelance <span>digital designer</span>, with +10 years of experience</h2>
+					<h2 class="titulos">Nice to meet you</h2>
 				</div>
 			</div>
 		</div>
@@ -109,7 +121,7 @@
 	<!-- FOOTER -->
 	<footer class="pie text-center">
 		<div class="container">
-			<h2 class="titulos mb-5">Everything is <span>design</span></h2>
+			<h2 class="titulos mb-5">Let's work together</h2>
 			<div class="rrss">
 				<a href="https://www.linkedin.com/in/laia-juv%C3%A9-navarro-432b17116/"><span class="fa fa-linkedin"></span></a>
 				<a href="https://www.instagram.com/laia.jn/"><span class="fa fa-instagram"></span></a>

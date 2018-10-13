@@ -7,7 +7,7 @@ html,
 body {
   height: 100%;
   font-family: 'Karla', sans-serif;
-  background-color: #f8f8f8;
+  background-color: #fafafa;
 }
 
 h1,
@@ -98,15 +98,24 @@ ol {
     Header Section
 --------------------------*/
 .cabecera {
-  padding-top: 30px;
+  padding-top: 23px;
   padding-bottom: 20px;
-  position: relative;
+  background-color: white;
+  border-bottom: #f0f0f0 0.5px solid;
 }
 
 .logotipo {
   font-size: 20px;
-  padding-top: 20px;
+  padding-top: 0px;
   line-height: 1.65;
+}
+
+.fixed-top{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
 }
 
 a{
@@ -128,7 +137,7 @@ a{
   color: #001418;
   margin-left: 15px;
   margin-right: 10px;
-  padding: 20px 0 5px;
+  padding: 0px;
   position: relative;
 }
 
@@ -156,7 +165,7 @@ a{
 
 .main-menu a:hover:after {
   opacity: 1;
-  bottom: 5px;
+  bottom: 2px;
 }
 
 .logo a:hover{
@@ -174,13 +183,65 @@ a{
   display: none;
 }
 
+/*=== Preloder ===*/
+#preloder {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  background: #fff;
+}
 
+.loader {
+  width: 30px;
+  height: 30px;
+  border: 3px solid #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  border-radius: 60px;
+  border-left-color: transparent;
+  animation: loader 0.8s linear infinite;
+  -webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
 
 /*------------------------
     Intro Section
 --------------------------*/
 .intro-section {
-  padding: 90px 0;
+  padding-top: 150px;
+  padding-bottom: 90px;
 }
 
 /*------------------------
@@ -192,7 +253,7 @@ a{
 
 .portfolio-filter {
   list-style: none;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 
@@ -421,7 +482,7 @@ a{
     right: 25px;
     font-size: 30px;
     color: #333;
-    top: 35px;
+    top: 12px;
     display: block;
   }
   .header-btn {
