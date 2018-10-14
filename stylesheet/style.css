@@ -520,6 +520,45 @@ a{
   color: #fff;
 }
 
+.btn {
+  border-radius: 100px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  margin-top: 60px;
+}
+
+.btn:active, .btn:focus {
+  outline: none;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.btn.btn-primary {
+  color: #fff;
+  background-color: #d2ddd5;
+  border: white;
+}
+
+
+.btn.btn-primary:hover{
+  background: #333233;
+}
+
+.btn.btn-secondary {
+  color: #fff;
+  background-color: #d2ddd5;
+  border: white;
+}
+
+
+.btn.btn-secondary:hover{
+  background: #333233;
+}
+
+
+
+
+
 /*------------------------
     Contact Page
 --------------------------*/
@@ -684,6 +723,101 @@ a{
   color: #979797;
 }
 
+.heading-about {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 120px;
+  position: relative;
+  z-index: 10;
+}
+
+.heading-about h2 {
+  position: relative;
+  font-weight: 200;
+  padding-top: 20px;
+  font-size: 35px;
+}
+
+.heading-about h2 strong {
+  font-weight: 800;
+}
+
+.heading-about h2:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2px;
+  width: 80px;
+  background: #d2ddd5;
+  z-index: -1;
+}
+
+  .heading-about.text-center h2:before {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.about{
+  text-align: justify;
+}
+
+/*------------------------
+    My Skills
+--------------------------*/
+
+.skill h3 {
+  font-size: 18px; }
+
+.progress {
+    overflow: visible;
+    margin-bottom: 26px;
+    height: 4px;
+}
+
+.progress .progress-bar {
+    background-color: #bfd8c5;
+    position: relative;
+    border-radius: 4px;
+}
+
+.progress .progress-bar span {
+    background-color: #bfd8c5;
+    position: absolute;
+    bottom: -20px;
+    font-size: 10px;
+    line-height: 10px;
+    padding: 2px 3px 2px 4px;
+    right: -1.4em;
+    border-radius: 2px;
+}
+
+  .progress .progress-bar span:after {
+    bottom: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: #bfd8c5;
+    border-bottom-color: #bfd8c5;
+    border-width: 5px;
+    margin-left: -5px;
+  }
+
+  .skills{
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  .titulo-skills{
+    margin-top: 8px;
+  }
 
 
 /* ===========================
