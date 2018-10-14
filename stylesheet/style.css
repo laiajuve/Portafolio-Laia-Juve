@@ -555,8 +555,10 @@ a{
   background: #333233;
 }
 
-
-
+.button-send{
+  margin-bottom: 90px;
+  margin-top: -20px;
+}
 
 
 /*------------------------
