@@ -462,6 +462,38 @@ a{
   font-style: italic;
 }
 
+
+/*------------------------
+    Proyecto Page
+--------------------------*/
+
+.intro-section-proyecto {
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+.textos{
+  margin-left: 18px;
+}
+
+.subtitulo{
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align:left;
+}
+
+.parrafo{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 18px;
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+
+
 /*------------------------
     Footer
 --------------------------*/
