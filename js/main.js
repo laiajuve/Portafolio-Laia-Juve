@@ -129,7 +129,7 @@ if($().circleProgress){
 
 
 
-// Codi Java Smooth Scroll 
+// Codi Java Smooth Scroll
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
